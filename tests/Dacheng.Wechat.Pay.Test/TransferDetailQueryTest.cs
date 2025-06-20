@@ -16,7 +16,7 @@ public class TransferDetailQueryTest : WechatPayTestBase
             BatchId = "131000009034101730878572023100350019199239",
             DetailId = "132000009034101730878572023100332718734401",
         };
-        var response = await _client!.SendAsync(request);
+        var response = await _client.SendAsync(request);
     }
 
     [Test]
@@ -27,6 +27,6 @@ public class TransferDetailQueryTest : WechatPayTestBase
             OutBatchNo = "3fe35a12b1244a6dad3a979e6692d1c5",
             OutDetailNo = "test1",
         };
-        var response = await _client!.SendAsync(request);
+        var response = await _client.SendAsync(request);
     }
 }

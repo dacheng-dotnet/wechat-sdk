@@ -11,11 +11,13 @@ public class WechatPayException : Exception
     {
     }
 
-    public WechatPayException(string? message) : base(message)
+    public WechatPayException(string? message)
+        : base(message)
     {
     }
 
-    public WechatPayException(string? message, WechatPayResponseBase response) : base(message)
+    public WechatPayException(string? message, WechatPayResponseBase response)
+        : base(message)
     {
         WechatPayResponse = response;
     }

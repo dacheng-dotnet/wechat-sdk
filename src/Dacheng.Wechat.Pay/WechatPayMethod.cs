@@ -5,5 +5,5 @@ public enum WechatPayMethod
     Get,
     Post,
     Put,
-    Delete
+    Delete,
 }

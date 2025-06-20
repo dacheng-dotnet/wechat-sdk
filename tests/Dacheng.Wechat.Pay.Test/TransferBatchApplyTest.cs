@@ -10,7 +10,7 @@ public class TransferBatchApplyTest : WechatPayTestBase
     {
         var request = new TransferBatchApplyRequest()
         {
-            AppId = _option!.AppId,
+            AppId = _option.AppId,
             OutBatchNo = Guid.NewGuid().ToString("N"),
             BatchName = "转账测试1",
             BatchRemark = "转账备注1",
@@ -24,6 +24,6 @@ public class TransferBatchApplyTest : WechatPayTestBase
             TransferRemark = "转账备注1",
             OpenId = "testopenid",
         });
-        await _client!.SendAsync(request);
+        await _client.SendAsync(request);
     }
 }

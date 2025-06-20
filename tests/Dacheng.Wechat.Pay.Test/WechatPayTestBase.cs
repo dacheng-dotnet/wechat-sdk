@@ -1,12 +1,9 @@
-using System.Net;
-using Dacheng.Wechat.Pay;
-
 namespace Dacheng.Wechat.Pay.Test;
 
 public abstract class WechatPayTestBase
 {
-    protected WechatPayClient? _client { get; private set; }
-    protected WechatPayOption? _option { get; private set; }
+    protected WechatPayClient _client { get; private set; }
+    protected WechatPayOption _option { get; private set; }
 
     [SetUp]
     public void Setup()
@@ -25,6 +22,6 @@ public abstract class WechatPayTestBase
     [TearDown]
     public void TearDown()
     {
-        _client?.Dispose();
+        _client.Dispose();
     }
 }

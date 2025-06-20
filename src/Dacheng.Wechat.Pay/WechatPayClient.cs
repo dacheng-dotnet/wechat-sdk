@@ -15,7 +15,8 @@ public class WechatPayClient : HttpClient
     {
     }
 
-    public WechatPayClient(HttpMessageHandler handler, bool disposeHandler) : base(handler, disposeHandler)
+    public WechatPayClient(HttpMessageHandler handler, bool disposeHandler)
+        : base(handler, disposeHandler)
     {
     }
 
@@ -24,13 +25,14 @@ public class WechatPayClient : HttpClient
         WechatPayOption = option;
     }
 
-    public WechatPayClient(WechatPayOption option, HttpMessageHandler handler) : base(handler)
+    public WechatPayClient(WechatPayOption option, HttpMessageHandler handler)
+        : base(handler)
     {
         WechatPayOption = option;
     }
 
-    public WechatPayClient(WechatPayOption option, HttpMessageHandler handler, bool disposeHandler) : base(handler,
-        disposeHandler)
+    public WechatPayClient(WechatPayOption option, HttpMessageHandler handler, bool disposeHandler)
+        : base(handler, disposeHandler)
     {
         WechatPayOption = option;
     }
