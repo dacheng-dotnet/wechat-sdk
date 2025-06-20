@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Dacheng.Wechat.Pay\Dacheng.Wechat.Pay.csproj" />
+      <ProjectReference Include="..\..\src\Dacheng.Wechat.Pay\Dacheng.Wechat.Pay.csproj" />
     </ItemGroup>
 
 </Project>

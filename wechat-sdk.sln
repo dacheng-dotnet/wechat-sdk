@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dacheng.Wechat.Pay", "Dacheng.Wechat.Pay\Dacheng.Wechat.Pay.csproj", "{61DEDD91-C507-46F6-A410-FC670269881C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{93CAD900-AF3E-49B0-9F43-7F1330C2715A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F23258F5-F161-4D40-A152-43AD2B614618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dacheng.Wechat.Pay", "src\Dacheng.Wechat.Pay\Dacheng.Wechat.Pay.csproj", "{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dacheng.Wechat.Pay.Test", "Tests\Dacheng.Wechat.Pay.Test\Dacheng.Wechat.Pay.Test.csproj", "{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F2BAADA0-F4B3-4686-8592-B85B225EC3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dacheng.Wechat.Pay.Test", "tests\Dacheng.Wechat.Pay.Test\Dacheng.Wechat.Pay.Test.csproj", "{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,16 +20,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61DEDD91-C507-46F6-A410-FC670269881C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61DEDD91-C507-46F6-A410-FC670269881C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61DEDD91-C507-46F6-A410-FC670269881C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61DEDD91-C507-46F6-A410-FC670269881C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DE2A83E9-85F9-4B6E-A280-1F0661F47FE2} = {F23258F5-F161-4D40-A152-43AD2B614618}
+		{4F569E78-065E-4E0B-BAE1-A809DCF1C9C7} = {93CAD900-AF3E-49B0-9F43-7F1330C2715A}
+		{5D5FFC2B-7D03-49FF-9EE4-F8E3D5BE922A} = {F2BAADA0-F4B3-4686-8592-B85B225EC3B9}
 	EndGlobalSection
 EndGlobal
