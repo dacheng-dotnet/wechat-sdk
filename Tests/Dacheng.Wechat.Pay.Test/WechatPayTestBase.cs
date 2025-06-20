@@ -21,4 +21,10 @@ public abstract class WechatPayTestBase
 
         _client = new WechatPayClient(_option);
     }
+
+    [TearDown]
+    public void TearDown()
+    {
+        _client?.Dispose();
+    }
 }
